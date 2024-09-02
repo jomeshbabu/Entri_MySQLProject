@@ -1,6 +1,6 @@
 **The Library Management System (LMS)** project outlined involves creating a relational database to manage various aspects of a library's operations. The database includes tables to store information about branches, employees, books, customers, and the statuses of book issues and returns. This setup allows for efficient data management and retrieval, enabling the library to keep track of all necessary information such as book availability, employee details, customer interactions, and more.
 
-Key Insights:
+**Key Insights:**
 Data Organization and Relationships:
 
 Branch and Employee Relationship: The Branch table is linked to the Employee table via a foreign key (Branch_no), indicating which branch each employee works at. This helps in understanding the distribution of staff across different branches and allows for queries that can manage branch-specific operations.
